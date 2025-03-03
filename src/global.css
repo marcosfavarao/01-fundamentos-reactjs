@@ -12,6 +12,8 @@
 
   --green-300: #00b37e;
   --green-500: #00875f;
+
+  --red-500: #f75a68;
 }
 
 * {
@@ -66,7 +68,7 @@ a {
   box-shadow: 0 0 0 2px var(--green-500);
 }
 
-[disabled] {
+:disabled {
   opacity: 0.6;
-  cursor: not-allowed;
+  cursor: not-allowed !important;
 }
